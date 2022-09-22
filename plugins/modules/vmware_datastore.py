@@ -42,7 +42,6 @@ options:
      description:
      - Storage I/O congestion threshold in percentage of peak throughput.
      - A value between 50% and 100%.
-     - Recommended: 90%
      - Only use C(congestion_threshold_percentage) or C(congestion_threshold_manual).
      - Only valid when C(storage_io_control) is C(enable_io_statistics).
      type: int
